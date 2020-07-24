@@ -67,8 +67,12 @@ myString = 'comillas simples';
 var myString2 = `interpolacion de variables: ${myString}`;
 console.log(myString, myString2);
 
-//trabajar con operadores
+//trabajar con operadores (coercion de tipo)
 var one = 1;
 var two = '2';
 console.log(one + two);
 console.log(two - one);
+one = 1;
+two = '1';
+console.log(one == two);
+console.log(one === two);
